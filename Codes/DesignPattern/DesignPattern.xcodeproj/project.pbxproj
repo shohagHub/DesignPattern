@@ -10,6 +10,7 @@
 		896B006823F009D700DEDAC2 /* FlyWeightDesignPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896B006723F009D600DEDAC2 /* FlyWeightDesignPattern.swift */; };
 		89704BB723F7A371004145D1 /* ProxyDesignPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89704BB623F7A371004145D1 /* ProxyDesignPattern.swift */; };
 		89704BB923F7E3F2004145D1 /* xml.xml in Resources */ = {isa = PBXBuildFile; fileRef = 89704BB823F7E3F1004145D1 /* xml.xml */; };
+		8995D19C241628FB00BEB9E3 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8995D19B241628FB00BEB9E3 /* Singleton.swift */; };
 		89A28E1623E3553E00233F3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A28E1523E3553E00233F3A /* AppDelegate.swift */; };
 		89A28E1823E3553E00233F3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A28E1723E3553E00233F3A /* SceneDelegate.swift */; };
 		89A28E1A23E3553E00233F3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A28E1923E3553E00233F3A /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 		896B006723F009D600DEDAC2 /* FlyWeightDesignPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyWeightDesignPattern.swift; sourceTree = "<group>"; };
 		89704BB623F7A371004145D1 /* ProxyDesignPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyDesignPattern.swift; sourceTree = "<group>"; };
 		89704BB823F7E3F1004145D1 /* xml.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = xml.xml; sourceTree = "<group>"; };
+		8995D19B241628FB00BEB9E3 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		89A28E1223E3553E00233F3A /* DesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89A28E1523E3553E00233F3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89A28E1723E3553E00233F3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +118,14 @@
 			path = Proxy;
 			sourceTree = "<group>";
 		};
+		8995D19A241628B000BEB9E3 /* Creational */ = {
+			isa = PBXGroup;
+			children = (
+				8995D19B241628FB00BEB9E3 /* Singleton.swift */,
+			);
+			path = Creational;
+			sourceTree = "<group>";
+		};
 		89A28E0923E3553E00233F3A = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +150,7 @@
 		89A28E1423E3553E00233F3A /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				8995D19A241628B000BEB9E3 /* Creational */,
 				89704BB423F7A2B5004145D1 /* Structural */,
 				89A28E1523E3553E00233F3A /* AppDelegate.swift */,
 				89A28E1723E3553E00233F3A /* SceneDelegate.swift */,
@@ -305,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89A28E4623E355AB00233F3A /* BuilderDesignPattern.swift in Sources */,
+				8995D19C241628FB00BEB9E3 /* Singleton.swift in Sources */,
 				896B006823F009D700DEDAC2 /* FlyWeightDesignPattern.swift in Sources */,
 				89A28E1A23E3553E00233F3A /* ViewController.swift in Sources */,
 				89A28E1623E3553E00233F3A /* AppDelegate.swift in Sources */,
